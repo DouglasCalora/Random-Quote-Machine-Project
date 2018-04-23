@@ -1,0 +1,20 @@
+.mensagem{
+    margin: auto;
+    margin-top: 100px;
+    width: 50%;
+    height: 400px;
+    background: rgb(28, 124, 180);
+    color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+
+.mensagem-aleatoria{
+    padding-top: 100px;
+
+}
+
+.botao{
+    margin-bottom: 10px;
+}
