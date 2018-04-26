@@ -7,28 +7,28 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="estilo.css">
     <script src="index.js"></script>
-    
     <title>Document</title>
 </head>
 <body>
-    
-        <div class="container">
-            <div class="row">
-                <section class=" col-sm-12 col-xs-12">
-                    <div class="mensagem">
-                        <button class="btn btn-info btn-block generate-sentence">Nova Frase</button>
-                        <a href="#" target="_blank" class="btn btn-info twitter-button">Twitter</a>
-                        <h3 class="text-center mensagem-aleatoria" id="random-mensagem">Carregando...</h3>
-                    
-                        <!-- <i>uhasua</i> -->
+    <div class="container">
+        <div class="row">
+            <section class=" col-sm-12 col-xs-12">
+                <div class="mensagem">
+                    <div class="row" style="margin-top: 20px;">
+                    <div class="col col-9"><button class="btn btn-info btn-block generate-sentence"><i class="fas fa-plus"></i> Nova Frase</button></div>
+                    <div class="col col-3"><a href="#" target="_blank" class="btn btn-primary btn-block twitter-button"> <i class="fab fa-twitter"></i> Twitter</a></div>
+                </div>
+                <div class="card" style="margin-top: 20px;">
+                    <div class="card-body">
+                        <blockquote class="blockquote">
+                            <p class="mb-0" id="random-mensagem"></p>
+                            <footer class="blockquote-footer" id="footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                        </blockquote>
+                        <span id="badge" class="badge badge-pill badge-primary"></span>
                     </div>
-                </section>
-
-            </div>
-
-        </div>
-
-
-    
+                </div>
+            </section>
+        </div> 
+    </div>
 </body>
 </html>

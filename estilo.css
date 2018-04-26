@@ -1,4 +1,4 @@
-.mensagem{
+.mensagem {
     margin: auto;
     margin-top: 100px;
     width: 50%;
@@ -8,13 +8,10 @@
     padding: 30px;
     border-radius: 5px;
 }
-
-
-.mensagem-aleatoria{
+.mensagem-aleatoria {
     padding-top: 100px;
 
 }
-
-.botao{
+.botao {
     margin-bottom: 10px;
 }
